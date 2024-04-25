@@ -1,0 +1,77 @@
+
+What is React?
+    - A JS library for buiding UIs.
+    - Extremely popular, declarative, component-based, state-driven JS library for building UIs.
+    - Created by Facebook.
+    - Components are the building blocks of react.
+    - We build complex UIs by building and combining multiple components (like lego pieces)
+    - REACT reacts to state changes by re-rendering the UI.
+
+JSX: A syntax that combines HTML, CSS, Javascript, as well as referencing other components.
+
+Declarative: Telling react what a component should look like based on current data/state. 
+State-driven: REACT reacts to state changes by re-rendering the UI.
+Javascript library: React is a library, NOT a framework.
+Extremely popular:
+Created by facebook:
+
+
+React Component:
+    - A piece of the User Interface. 
+    - A component in React is a function.
+    - These components return JSX.
+
+Why we use React:
+
+- To always keep the UI in sync with data.
+- Earlier websites used serverside rendering (rendered on the server, presented to the browser). 
+- JS was the used for simple things like hover effects, simple animations etc.
+- The then popular library jquery was used for this because it made JS work the exact same way on all browsers back then.
+- Then devs started writing more and more JS and eventually they became Web Applications which led to SPAs (Single Page Applications).
+- SPAs are rendered on the client, not on the server.
+- Web Applications are used instead of the old webpages.
+- Data for these Web Applications come from the backend usually in the form of an API 
+- SPAs essentially feel as if we are using a native desktop/ mobile application.
+- We can click on links, submit forms etx without the page ever reloading, techinically you're on the same page always, hence the name Single Page Applications.
+
+SPAs with Vanilla Javascript?
+- No. Keeping UI and data in sync with would be virtually impossible with just vanilla JS.
+- Requires lots of DOM manipulation and traversing. (Spaghetti code)
+- In vanilla js, simple text or numbers are stored in DOM rather than in a central place in the application. (Hard to reason + lots of bugs)
+
+- Front-end web applications are all about: handling data + displaying data in a UI
+
+- Piece of data = Piece of state 
+
+- JS front-end frameworks exist because:
+    - Keeping a UI in sync with data is REALLY HARD and a LOT OF WORK.
+    - They enforce a correct way of structuring and writing code. (Solving the problem of spaghetti code)
+    - They give the developers and teams a consistent way of building front-end applications.
+
+
+
+The TWO options for setting up a react project:
+
+    - create-react-app
+        - Complete starter kit for React applications.
+        - Everything is already configured: ESLint, Prettier, Jest, etc.
+        - Use slow and outdated tecnologies (i.e. webpack)
+        - DONT USE for REAL-WORLD APP, use it just for tutorials or experiments.
+    
+    - Vite
+        - Extremely fast.
+        - MODERN BUILD TOOL that contain a TMEPLATE for setting up React apps.
+        - Need to manually set up ESLint (and others)
+        - USE for modern REAL-WORLD APPS.
+
+
+Essential JS for React:
+    - Array/ Object destructuring
+    - Spread & Rest operators (Array/ Object)
+    - Template literals
+    - Use ternary operators instead of if/else statements.
+    - Arrow functions
+    - Short circuiting and logical operators (Nullish Coalescing Operator)
+    - Optional chaining
+    - Array map, filter, reduce, sort methods.
+    - Working with immutable arrays. To add (spread operator), delete (filter) and update (map) elements of an array.
